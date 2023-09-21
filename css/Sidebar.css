@@ -1,0 +1,9 @@
+.Sidebar {
+  width: 270px;
+  height: 947px;
+  flex-shrink: 0;
+  float: left;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
