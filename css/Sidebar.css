@@ -2,8 +2,11 @@
   width: 270px;
   height: 947px;
   flex-shrink: 0;
-  float: left;
-  position: fixed;
   left: 0;
   top: 0;
+  background-color: #000;
+  grid-area: left-sidebar;
+  position: relative;
+  width: 306;
+  z-index: 4;
 }
