@@ -8,6 +8,7 @@
   height: 112px;
   grid-area: now-playing-bar;
   width: 100%;
+  background-color: #000000;
   z-index: 4;
 }
 :is(
@@ -26,6 +27,19 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+}
+.control__play__inner__center__top__center {
+  width: 42px;
+  height: 42px;
+  & svg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .control__play__inner {
   width: 100%;
@@ -48,10 +62,13 @@
   align-items: center;
 }
 .control__play__inner__center__top {
+  gap: 8px;
   align-items: center;
 }
 .control__play__inner__left {
-  min-width: 180px;
+  align-items: center;
+  max-width: 300px;
+  overflow: hidden;
   width: 30%;
 }
 .control__play__inner__center {
@@ -59,35 +76,39 @@
   width: 40%;
 }
 .control__play__inner__left__img {
-  width: 70px;
-  height: 70px;
+  width: 56px;
+  height: 56px;
   flex-shrink: 0;
 }
 .control__play__inner__left__text {
+  height: 56px;
+  justify-content: center;
+
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
   margin-left: 18px;
-  height: 100%;
   flex-direction: column;
-  width: 122px;
 }
 .control__play__inner__left__text__name {
+  white-space: nowrap;
   color: #fff;
   font-family: DM Sans;
-  font-size: 18px;
+  word-break: keep-all;
+  overflow: hidden;
+  font-size: 0.825rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
-  letter-spacing: -0.9px;
   height: 19px;
 }
 .control__play__inner__left__text__artist {
   color: #b3b3b3;
   font-family: DM Sans;
-  height: 19px;
-  font-size: 15px;
+  font-size: 0.6rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: -0.75px;
 }
 .icon {
   width: 24px;
@@ -96,14 +117,23 @@
   align-items: center;
   height: 24px;
   cursor: pointer;
+  fill: #fff;
 }
+
 .control__play__inner__right__icon {
-  width: 32px;
-  height: 32px;
+  width: 24px;
+  height: 24px;
   display: flex;
+  cursor: pointer;
   justify-content: center;
   align-items: center;
+
   margin: 8px;
+  & svg {
+    fill: #fff;
+    width: 100%;
+    height: 100%;
+  }
 }
 .mute__line {
   display: flex;
@@ -145,17 +175,23 @@
   flex-direction: row;
   align-items: center;
 }
-.control__play__inner__center__bottom__time{
+.control__play__inner__center__bottom__time {
   width: 80%;
   display: inline-flex;
   margin: 0 24px;
 }
-.control__play__inner__center__bottom__time input{
+.control__play__inner__center__bottom__time input {
   width: 100%;
-
 }
-.control__play__inner__center__bottom{
+.control__play__inner__center__bottom {
+  color: #fff;
   align-items: center;
   display: flex;
   width: 100%;
+}
+#play--icon{
+  display: block;
+}
+#pause--icon {
+  display: none;
 }
