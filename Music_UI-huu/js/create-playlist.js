@@ -1,1 +1,0 @@
-khoong làm được rồi
