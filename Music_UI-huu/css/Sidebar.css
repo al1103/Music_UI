@@ -1,7 +1,7 @@
-/* Định dạng phần sidebar */
+
 .Sidebar {
-  color: #fff; /* Đổi màu chữ */
-  width: 250px; /* Độ rộng của sidebar */
+  color: #fff; 
+  width: 250px; 
   height: 947px;
   flex-shrink: 0;
   left: 0;
@@ -15,13 +15,13 @@
 
 /* Định dạng phần TypeElement trong sidebar */
 .Type__TypeElement-sc-goli3j-0.bkjCej {
-  margin-left: 5px; /* Khoảng cách giữa biểu tượng và văn bản */
+  margin-left: 5px; 
 }
 .home-library{
   background-color: #121212 ;
-  border: 1px solid #121212; /* Thêm viền với màu xám */
-  padding: 10px; /* Thêm khoảng cách nội dung với viền */
-  border-radius: 10px; /* Bo góc viền */
+  border: 1px solid #121212;
+  padding: 10px; 
+  border-radius: 10px; 
   margin-bottom: 5px
 }
 /* HOME */
@@ -33,47 +33,47 @@
   align-items: center;
 }
 .home a {
-  text-decoration: none; /* Loại bỏ gạch chân */
-  color: #a7a7a7; /* Đổi màu chữ */
+  text-decoration: none; 
+  color: #a7a7a7; 
   
 }
 .style01 {
-  text-decoration: none ; /* Loại bỏ gạch chân ở liên kết */
-  font-weight: bold; /* In đậm chữ */
-  font-size: 1rem; /* Đặt kích cỡ chữ */
+  text-decoration: none ; 
+  font-weight: bold; 
+  font-size: 1rem; 
 }
 
 .style01:hover {
-  color: #fff; /* Đổi màu chữ khi di chuột qua liên kết */
+  color: #fff; 
 }
 .home i.fa, .home ion-icon {
-  margin-right: 2px; /* Khoảng cách giữa biểu tượng và văn bản */
+  margin-right: 2px; 
  }
 /* LIBRARY*/
 .your-library {
   text-align: none;
   margin-left: 10px;
   margin-bottom: 15px;
-    margin: 0; /* Đảm bảo không có khoảng cách giữa các nút */
-  list-style: none; /* Loại bỏ dấu đầu dòng của danh sách */
+  margin: 0; 
+  list-style: none; 
   
  }
  
  .your-library a {
-  text-decoration: none; /* Loại bỏ gạch chân */
+  text-decoration: none; 
   color: #a7a7a7;
  }
 .style02 {
-  text-decoration: none; /* Loại bỏ gạch chân ở liên kết */
-  font-weight: bold; /* In đậm chữ */
-  font-size: 1rem; /* Đặt kích cỡ chữ */
+  text-decoration: none;
+  font-weight: bold; 
+  font-size: 1rem;
 }
 .style02:hover {
-  color: #fff; /* Đổi màu chữ khi di chuột qua liên kết */
+  color: #fff; 
 }
 
  .your-library i.fa, .your-library ion-icon {
-  margin-right: 2px; /* Khoảng cách giữa biểu tượng và văn bản */
+  margin-right: 2px; 
  }
 /* danh sách phát*/
 .control-section{
@@ -83,14 +83,14 @@
   margin-top: 5px;
 }
 .create-playlist, .liked-songs{
-  padding: px; /* Thêm khoảng cách nội dung với viền */
+  padding: 1px; 
   font-size: 0.8125rem;
 }
 .style01-1,.style01-2 {
   color: #f4f4f4;
   border-radius: 15px; 
-  display: block; /* Để liên kết chiếm toàn bộ chiều rộng của phần tử cha */
-  padding: 12px 4px ; /* phần nền to nhỏ */
+  display: block; 
+  padding: 12px 4px ; 
   background-color: #232323;
   box-sizing: border-box;
   margin: 10px;
@@ -104,8 +104,8 @@
 /* What' New */
 .what-new {
   background-color: #121212 ;
-  border: 1px solid #121212; /* Thêm viền với màu xám */
-  padding: 5px; /* Thêm khoảng cách nội dung với viền */
+  border: 1px solid #121212; 
+  padding: 5px; 
   border-radius: 10px; 
 }
 .st
@@ -131,33 +131,3 @@ p {
   font-size: 13px;
 }
 
-/* Hiển thị thanh cuộn khi nhấn vào nút Avatar */
-#avatarBtn:focus + .scroll-menu,
-.scroll-menu:hover {
-  display: block;
-}
-/* CSS cho thanh cuộn */
-.scroll-menu {
-  display: none;
-  position: absolute;
-  background-color: #282828;
-  border: 1px solid #282828;
-  max-height: 100px; 
-  flex-direction: column;
-  text-align: center;
-  border-radius:3%; 
-}
-.scroll-menu a:last-child {
-  order: -1;
-}
-.style03, .style04{
-  color: #f4f4f4;
-  text-decoration: none;
-  display: block; /* Để liên kết chiếm toàn bộ chiều rộng của phần tử cha */
-  padding: 3px; /* phần nền to nhỏ */
-  box-sizing: border-box;
-
-}
-.style03 ion-icon {
-  margin-right: 5px;
-}

@@ -154,3 +154,21 @@ main {
     padding: 16px;
     position: absolute;
 }
+/*login*/
+.login {
+  text-align: right; 
+}
+.login__btn {
+  margin-right: 10px; 
+  text-decoration: none; 
+  padding: 5px 10px;
+  background-color:rgb(167,167,167);
+  color: rgb(0,0,0);
+  border: 1px solid ; 
+  border-radius: 10px;
+  min-width: 120px;
+}
+
+.login__btn:hover {
+  background-color: #444;
+}
