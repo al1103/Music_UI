@@ -1,0 +1,133 @@
+
+.Sidebar {
+  color: #fff; 
+  width: 250px; 
+  height: 947px;
+  flex-shrink: 0;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  grid-area: left-sidebar;
+  position: relative;
+  width: 306;
+  z-index: 4;
+}
+
+/* Định dạng phần TypeElement trong sidebar */
+.Type__TypeElement-sc-goli3j-0.bkjCej {
+  margin-left: 5px; 
+}
+.home-library{
+  background-color: #121212 ;
+  border: 1px solid #121212;
+  padding: 10px; 
+  border-radius: 10px; 
+  margin-bottom: 5px
+}
+/* HOME */
+.home {
+  text-align: none; 
+  margin-left: 20px;
+  margin-bottom: 15px; 
+  display: flex;
+  align-items: center;
+}
+.home a {
+  text-decoration: none; 
+  color: #a7a7a7; 
+  
+}
+.style01 {
+  text-decoration: none ; 
+  font-weight: bold; 
+  font-size: 1rem; 
+}
+
+.style01:hover {
+  color: #fff; 
+}
+.home i.fa, .home ion-icon {
+  margin-right: 2px; 
+ }
+/* LIBRARY*/
+.your-library {
+  text-align: none;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  margin: 0; 
+  list-style: none; 
+  
+ }
+ 
+ .your-library a {
+  text-decoration: none; 
+  color: #a7a7a7;
+ }
+.style02 {
+  text-decoration: none;
+  font-weight: bold; 
+  font-size: 1rem;
+}
+.style02:hover {
+  color: #fff; 
+}
+
+ .your-library i.fa, .your-library ion-icon {
+  margin-right: 2px; 
+ }
+/* danh sách phát*/
+.control-section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;  
+  margin-top: 5px;
+}
+.create-playlist, .liked-songs{
+  padding: 1px; 
+  font-size: 0.8125rem;
+}
+.style01-1,.style01-2 {
+  color: #f4f4f4;
+  border-radius: 15px; 
+  display: block; 
+  padding: 12px 4px ; 
+  background-color: #232323;
+  box-sizing: border-box;
+  margin: 10px;
+  font-weight: 400;
+  font-family: var(--font-family,CircularSp,CircularSp-Arab,CircularSp-Hebr,CircularSp-Cyrl,CircularSp-Grek,CircularSp-Deva,var(--fallback-fonts,sans-serif));
+  
+}
+.style01-1:hover,.style01-2:hover {
+  background-color: #444;
+}
+/* What' New */
+.what-new {
+  background-color: #121212 ;
+  border: 1px solid #121212; 
+  padding: 5px; 
+  border-radius: 10px; 
+}
+.st
+.new-releases, .featured-tracks {
+  margin: 20px 0; 
+}
+
+h2 {
+  font-size: 20px; 
+  margin-bottom: 10px; 
+}
+
+.album, .track {
+  margin: 20px 0; 
+}
+h3 {
+  font-size: 16px; 
+  margin-top: 10px; 
+}
+p {
+  color: #666; 
+  margin-top: 5px; 
+  font-size: 13px;
+}
+
