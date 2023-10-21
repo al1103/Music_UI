@@ -108,9 +108,10 @@
   padding: 5px; 
   border-radius: 10px; 
 }
-.st
+
 .new-releases, .featured-tracks {
   margin: 20px 0; 
+  display: flex;
 }
 
 h2 {
@@ -121,6 +122,11 @@ h2 {
 .album, .track {
   margin: 20px 0; 
 }
+.album img, .featured-tracks img{
+  max-width: 75px; 
+  max-height: 175px; 
+}
+
 h3 {
   font-size: 16px; 
   margin-top: 10px; 
@@ -131,3 +137,22 @@ p {
   font-size: 13px;
 }
 
+.new-releases {
+  display: flex;
+  flex-wrap: nowrap; 
+  overflow-x: auto; 
+}
+
+.album {
+  display: inline-block; 
+  margin-right: 10px; 
+}
+.featured-tracks{
+  display: flex; 
+  flex-wrap: nowrap; 
+  overflow-x: auto; 
+}
+.track{
+  display: inline-block;  
+  margin-right: 10px;
+}
