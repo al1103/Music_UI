@@ -67,6 +67,7 @@
 }
 .control__play__inner__left {
   align-items: center;
+  padding-right: 35px;
   max-width: 300px;
   overflow: hidden;
   width: 30%;

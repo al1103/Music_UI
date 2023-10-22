@@ -3,9 +3,9 @@
   flex-direction: column;
   width: 100%;
   padding: 50px 24px;
+  overscroll-behavior-y: contain;
   align-items: flex-start;
   gap: 30px;
-  overflow: hidden;
   background-color: rgba(255, 255, 255, 1);
   background: linear-gradient(
     180deg,
@@ -79,7 +79,6 @@
   width: 100%;
   align-items: flex-start;
   gap: 25px;
-  padding: 0px 30px;
 }
 
 .frame .div-3 {
@@ -203,4 +202,50 @@
     flex-shrink: 0;
     fill: #000000;
   }
+}
+footer {
+  margin-top: 50px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .left{
+  display: flex;
+  gap: 100px;
+}
+footer .left ul {
+  list-style: none;
+}
+footer .left ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #b3b3b3;
+}
+footer .left ul li:first-child{
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+footer .right ul {
+  list-style: none;
+}
+
+footer .right ul li {
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  color: #b3b3b3;
+  display: inline-block;
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+}
+footer .right ul li svg{
+  width: 100%;
+  height: 100%;
+  color: #b3b3b3;
+  fill: #b3b3b3;
+
 }

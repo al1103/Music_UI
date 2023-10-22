@@ -104,12 +104,14 @@ previousSong.addEventListener("click", async () => {
 });
 
 untidy.addEventListener("click", async () => {
+  untidy.classList.toggle("active");
   const playlistData = await getPlaylistData();
   currentSongIndex = Math.floor(Math.random() * playlistData.length);
   updateSong();
 });
 
 loop.addEventListener("click", () => {
+  loop.classList.toggle("active");
   musicSong.loop = !musicSong.loop;
   updateSong();
 });
